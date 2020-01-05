@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StoreActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- LinearLayout Inside ScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/firstLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/dasani"
+                    android:id="@+id/dasani"
+                    />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Dasani $2.00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/secondLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/fruit_oat_milk"
+                    android:id="@+id/id_fruit_oatmeal"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Fruit Oatmeal $2.00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/thirdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/bacon_biscuit"
+                    android:id="@+id/id_bacon_biscuit"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Bacon Egg Biscuit $2.00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/fourthLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/hotcake"
+                    android:id="@+id/hotcake"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Hotcakes $2.00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/fifthLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/biscuit_egg"
+                    android:id="@+id/id_biscuit_egg"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Egg Sausage $2.00"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/sixthLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/sausage_biscuit"
+                    android:id="@+id/id_sausage_biscuit"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Sausage Biscuit $1.99"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <LinearLayout
+                android:id="@+id/seventhLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <ImageButton
+                    android:layout_width="188dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/sausage_burrito"
+                    android:id="@+id/id_sausage_burrito"/>
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Sausage Burrito $1.75"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/id_process"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="PROCESS ORDER" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
