@@ -74,11 +74,13 @@ public class StoreActivity extends AppCompatActivity {
             }
         });
     }
-    /************************************
-    * Function: 
-    * Arguments:
-    * Returns:
-    *************************************/
+    /******************************************
+    * Function: onActivityResult
+    * Arguments: requestCode, resultCode, data
+    * Returns: none
+    * Description: getting data back from other
+    * activities
+    *******************************************/
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
         super.onActivityResult(requestCode, resultCode, data);
@@ -95,9 +97,10 @@ public class StoreActivity extends AppCompatActivity {
         }
     }
     /************************************
-    * Function: 
-    * Arguments:
-    * Returns:
+    * Function: getID
+    * Arguments: none
+    * Returns: none
+    * Description: get id of views in bulk
     *************************************/
     public void getID(){
         water = findViewById(R.id.dasani);
@@ -109,11 +112,12 @@ public class StoreActivity extends AppCompatActivity {
         hotcakes = findViewById(R.id.hotcake);
         process = findViewById(R.id.id_process);
     }
-    /************************************
-    * Function: 
-    * Arguments:
-    * Returns:
-    *************************************/
+    /*******************************************
+    * Function: processItem
+    * Arguments: String of item
+    * Returns: none
+    * Description: put data to QuantityActivity
+    *******************************************/
     public void processItem(String item){
         Intent intent = new Intent(StoreActivity.this, QuantityActivity.class);
         intent.putExtra("item_name", item);
@@ -126,11 +130,12 @@ public class StoreActivity extends AppCompatActivity {
         intent.putExtra("hotcakes_quantity",hotcakes_quantity);
         startActivityForResult(intent,MY_REQUEST_CODE);
     }
-    /************************************
-    * Function: 
-    * Arguments:
-    * Returns:
-    *************************************/
+    /***********************************************
+    * Function: processCart
+    * Arguments: none
+    * Returns: none
+    * Description: put data to ProcessOrderActivity
+    ***********************************************/
     public void processCart(){
         Intent intent = new Intent(StoreActivity.this, ProcessOrderActivity.class);
         intent.putExtra("water_quantity",water_quantity);
