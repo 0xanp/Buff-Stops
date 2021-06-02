@@ -1,2 +1,2 @@
 # Shopping-Cart-Clone
-# An Android app that imitates an online convenient store 
+# An Android app that supports WTAMU convenience store
